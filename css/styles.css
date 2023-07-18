@@ -731,7 +731,6 @@ body {
 
 .footer-form-title {
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -770,17 +769,23 @@ input::placeholder {
 
 .subscribe-btn {
   display: flex;
-  padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   min-width: 165px;
   height: 40px;
 }
 
-/* .footer-input:focus {
-  border-color: var(--links-hover-active);
-} */
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--actions);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.modal-btn-icon {
+  margin-left: 24px;
+  fill: var(--white-background);
+}
+
 /** -----PORTFOLIO----- */
 
 .section-product {
