@@ -778,7 +778,7 @@ input::placeholder {
 }
 
 .modal-btn-icon {
-  margin-left: 24px;
+  margin-left: 16px;
   fill: var(--white-background);
 }
 
